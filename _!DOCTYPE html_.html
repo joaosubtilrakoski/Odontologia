@@ -3,22 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clínica Odontológica</title>
+    <title>Login - Clínica Odontológica</title>
     <style>
         /* Estilos CSS para o cabeçalho */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #000;
-            color: #fff;
+            background-image: url('jao.jpeg'); /* Imagem de fundo */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: center; /* Centraliza conteúdo horizontalmente */
+            align-items: center; /* Centraliza conteúdo verticalmente */
+            height: 100vh; /* Utiliza a altura total da viewport */
         }
 
         header {
-            background-color: #4caf50;
-            color: #fff;
+            background-color: rgba(0, 0, 0, 0.7); /* Fundo preto semi-transparente */
             padding: 20px 0;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            z-index: 1000; /* Coloca o cabeçalho sobre outros elementos */
+            position: fixed; /* Fixa o cabeçalho no topo da página */
+            top: 0; /* Alinha o cabeçalho no topo da página */
         }
 
         .container {
@@ -37,6 +46,7 @@
         nav ul {
             list-style-type: none;
             padding: 0;
+            margin: 0;
         }
 
         nav ul li {
@@ -50,58 +60,48 @@
             font-size: 18px;
             padding: 10px 15px;
             border-radius: 5px;
-            background-color: rgba(255, 255, 255, 0.2);
             transition: background-color 0.3s ease;
         }
 
         nav ul li a:hover {
-            background-color: rgba(255, 255, 255, 0.4);
+            background-color: rgba(255, 255, 255, 0.1); /* Efeito de fundo ao passar o mouse */
         }
 
-        section {
-            padding: 40px 20px;
-            background-color: #000; /* Fundo preto */
+        nav ul li:last-child {
+            margin-right: 0; /* Remover a margem à direita do último item do menu */
+        }
+
+        /* Estilos para o formulário de login */
+        .login-container {
+            background-color: rgba(255, 255, 255, 0.8); /* Fundo branco semi-transparente */
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            margin-top: 120px; /* Espaço para o cabeçalho */
+        }
+
+        .login-container h2 {
             margin-bottom: 20px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .login-form input[type="text"],
+        .login-form input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: none;
             border-radius: 5px;
-            position: relative;
-            color: #fff; /* Texto branco */
+            box-sizing: border-box;
         }
 
-        section h2 {
-            color: #4caf50; /* Cor verde para o título */
-            margin-top: 0;
-            font-size: 32px; /* Tamanho maior para o título */
-            text-align: center; /* Centralizando o título */
-            margin-bottom: 20px; /* Espaço extra abaixo do título */
-        }
-
-        section p {
-            color: #ccc; /* Texto mais claro */
-            font-size: 18px; /* Tamanho do texto aumentado */
-        }
-
-        section ul {
-            color: #ccc; /* Texto mais claro */
-            list-style-type: disc;
-            font-size: 18px; /* Tamanho do texto aumentado */
-        }
-
-        footer {
+        .login-form input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
             background-color: #4caf50;
             color: #fff;
-            padding: 20px 0;
-            text-align: center;
-        }
-
-        .background-image {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            z-index: -1;
+            cursor: pointer;
         }
 
     </style>
@@ -124,40 +124,14 @@
     </div>
 </header>
 
-<section id="servicos">
-    <img src="servicos.jpg" alt="Serviços" class="background-image">
-    <div class="content">
-        <h2>Nossos Serviços</h2>
-        <p>Aqui você pode listar os serviços oferecidos pela clínica odontológica.</p>
-        <ul>
-            <li>Limpeza e prevenção</li>
-            <li>Restaurações dentárias</li>
-            <li>Tratamento de canal</li>
-            <li>Implantes dentários</li>
-            <!-- Adicione mais serviços conforme necessário -->
-        </ul>
-    </div>
-</section>
-
-<section id="sobre">
-    <img src="sobre.jpg" alt="Sobre Nós" class="background-image">
-    <div class="content">
-        <h2>Sobre Nós</h2>
-        <p>Informações sobre a clínica odontológica, sua equipe, missão, visão, valores, etc.</p>
-    </div>
-</section>
-
-<section id="contato">
-    <img src="contato.jpg" alt="Contato" class="background-image">
-    <div class="content">
-        <h2>Entre em Contato</h2>
-        <p>Aqui você pode adicionar informações de contato, como telefone, e-mail e endereço.</p>
-    </div>
-</section>
-
-<footer>
-    <p>&copy; 2024 Clínica Odontológica. Todos os direitos reservados.</p>
-</footer>
+<div class="login-container">
+    <h2>Login</h2>
+    <form class="login-form">
+        <input type="text" placeholder="Usuário" required><br>
+        <input type="password" placeholder="Senha" required><br>
+        <input type="submit" value="Entrar">
+    </form>
+</div>
 
 </body>
 </html>
