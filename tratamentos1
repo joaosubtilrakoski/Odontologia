@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aparelho Dentário</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #4caf50;
+        }
+
+        p {
+            text-align: justify;
+            line-height: 1.5;
+        }
+
+        .image-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Aparelho Dentário</h1>
+
+    <div class="image-container">
+        <img src="aparelho_dentario.jpg" alt="Aparelho Dentário">
+    </div>
+
+    <p>O aparelho dentário é um dispositivo utilizado na odontologia para corrigir a posição dos dentes e a mordida. Ele é composto por brackets, fios e elásticos, que aplicam forças suaves para mover os dentes gradualmente ao longo do tempo.</p>
+
+    <p>O tratamento com aparelho dentário pode ser recomendado para corrigir problemas como dentes tortos, apinhados, espaçados ou uma mordida irregular. O tempo de uso do aparelho varia de acordo com a gravidade do caso e pode durar de alguns meses a alguns anos.</p>
+
+    <p>É importante manter uma boa higiene bucal durante o tratamento com aparelho, incluindo escovação regular dos dentes e fio dental, além de evitar alimentos duros ou pegajosos que possam danificar o aparelho.</p>
+
+    <p>Após a remoção do aparelho, pode ser necessário o uso de um retentor para manter os dentes na nova posição e evitar que eles voltem à sua posição original.</p>
+</div>
+
+</body>
+</html>
