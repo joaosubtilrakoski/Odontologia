@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clareamento Dental</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        header {
+            text-align: center;
+            background-color: #0a0a0a;
+            color: white;
+            padding: 20px 0;
+        }
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        section {
+            background-color: #fff;
+            border-radius: 5px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #080808;
+        }
+        ol, ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+        footer {
+            text-align: center;
+            background-color: #070707;
+            color: white;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Clareamento Dental: Revelando Seu Sorriso Mais Brilhante</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Como Funciona</h2>
+            <p>O processo de clareamento dental utiliza agentes clareadores para quebrar as moléculas de pigmentação que se acumulam na superfície e no interior dos dentes. Existem duas formas principais de realizar o clareamento dental:</p>
+            <ol>
+                <li>Clareamento Dentário em Consultório</li>
+                <li>Clareamento Dentário em Casa</li>
+            </ol>
+        </section>
+        
+        <section>
+            <h2>Benefícios</h2>
+            <ul>
+                <li>Sorriso Mais Atraente</li>
+                <li>Aumento da Confiança</li>
+                <li>Procedimento Seguro</li>
+            </ul>
+        </section>
+        
+        <section>
+            <h2>Cuidados e Considerações</h2>
+            <p>É importante ressaltar que o clareamento dental pode não ser adequado para todos. Algumas pessoas podem experimentar sensibilidade temporária nos dentes durante o processo, mas isso geralmente desaparece após a conclusão do tratamento.</p>
+            <p>Além disso, é essencial seguir as instruções do dentista e evitar o consumo de alimentos e bebidas pigmentados durante o tratamento para otimizar os resultados.</p>
+        </section>
+        
+        <section>
+            <h2>Conclusão</h2>
+            <p>O clareamento dental é uma maneira eficaz de transformar seu sorriso, proporcionando dentes mais brancos e uma aparência mais radiante. Se você deseja recuperar a vitalidade do seu sorriso, consulte um dentista para descobrir qual</p>
+        </section>
+    </main>
+    <footer>
+        <!-- Adicione informações de contato ou links relevantes aqui -->
+    </footer>
+</body>
+</html>
