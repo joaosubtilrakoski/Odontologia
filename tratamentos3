@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Implante Dentário</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        header {
+            text-align: center;
+            background-color: #3498db;
+            color: white;
+            padding: 20px 0;
+        }
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        section {
+            background-color: #fff;
+            border-radius: 5px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #3498db;
+        }
+        ol, ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+        .image {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            background-color: #3498db;
+            color: white;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Implante Dentário: Recupere o Sorriso e a Confiança</h1>
+    </header>
+    <main>
+        <section>
+            <h2>O Que São Implantes Dentários?</h2>
+            <p>Os implantes dentários são estruturas de titânio colocadas cirurgicamente no osso da mandíbula ou maxila para substituir as raízes dentárias ausentes. Eles servem como uma base sólida para a fixação de dentes substitutos, como coroas, pontes ou próteses.</p>
+            <img src="implante.jpeg" alt="Implante Dentário" class="image">
+        </section>
+        
+        <section>
+            <h2>Vantagens dos Implantes Dentários</h2>
+            <ul>
+                <li>Restaura a funcionalidade mastigatória</li>
+                <li>Melhora a estética do sorriso</li>
+                <li>Previne a perda óssea</li>
+                <li>Aumenta a autoconfiança</li>
+                <li>Proporciona uma solução duradoura e de baixa manutenção</li>
+            </ul>
+            <img src="vantagens_implante.jpeg" alt="Vantagens dos Implantes Dentários" class="image">
+        </section>
+        
+        <section>
+            <h2>Processo de Colocação de Implantes Dentários</h2>
+            <ol>
+                <li>Avaliação inicial e planejamento do tratamento</li>
+                <li>Cirurgia de colocação do implante</li>
+                <li>Integração óssea (osseointegração)</li>
+                <li>Colocação do dente substituto</li>
+            </ol>
+            <img src="processo_implante.jpg" alt="Processo de Colocação de Implantes Dentários" class="image">
+        </section>
+        
+        <section>
+            <h2>Cuidados Após a Colocação</h2>
+            <p>Após a cirurgia de colocação do implante, é importante seguir as instruções do dentista para garantir uma recuperação adequada. Isso pode incluir o uso de medicamentos prescritos, dieta macia durante alguns dias e evitar atividades que possam comprometer a área cirúrgica.</p>
+            <img src="cuidados_implante.jpg" alt="Cuidados Após a Colocação de Implantes Dentários" class="image">
+        </section>
+    </main>
+    <footer>
+        <!-- Adicione informações de contato ou links relevantes aqui -->
+    </footer>
+</body>
+</html>
